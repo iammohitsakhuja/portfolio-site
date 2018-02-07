@@ -1,4 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300|Ubuntu:300');
+
 body {
+  font-family: 'Ubuntu', 'Roboto', sans-serif;
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
+
+
+/* Global */
+.container {
+  width: 70%;
+  margin-left: 20%;
+  margin-right: 10%;
+  overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+a:link {
+  text-decoration: none;
+  color: #444;
+}
+
+
+/* Header */
+header#page-head {
+  margin-top: 30px;
+}
+
+header .container {
+  padding-bottom: 15px;
+  border-bottom: 2px solid #7d97ad;
+}
+
+#page-head .logo {
+  float: left;
+}
+
+#page-head .logo img {
+  width: 70px;
+}
+
+#page-head #title {
+  float: right;
+  text-align: right;
+  color: #2d3c49;
+}
+
+#page-head #title h1 {
+  font-size: 45px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+#page-head #title h4 {
+  margin-top: 5px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+
+/* Sidebar */
+aside#sidebar {
+  float: left;
+  width: 20%;
+}
+
+aside#sidebar .side-container {
+  padding-right: 30%;
+  padding-left: 30%;
+}
+
+aside#sidebar .side-container .color-box {
+  text-align: right;
+}
+
+aside#sidebar .side-container .color-box .box {
+  float: right;
+  width: 80%;
+  padding-top: 80%; /* 1:1 Aspect ratio */
+}
+
+aside#sidebar .side-container .color-box .box#blue {
+  background-color: #02b3e4;
+}
+
+aside#sidebar .side-container .color-box .box#dark-gray {
+  background-color: #2d3c49;
+}
+
+aside#sidebar .side-container .color-box .box#light-gray {
+  background-color: #7d97ad;
+}
+
+aside#sidebar .side-container .color-box p {
+  margin-top: 0;
+  margin-bottom: 12px;
+  padding-top: 72px;
+  font-size: 20px;
+  color: #7d97ad;
+}
+
+
+/* Showcase */
+section#showcase .container {
+  padding-top: 30px;
+}
+
+section#showcase .container img {
+  width: 100%;
+  height: 40%;
+}
+
+
+/* Featured Work */
+section#featured-work {
+  margin-top: 15px;
+}
+
+section#featured-work .container > h2 {
+  padding: 10px;
+  font-size: 30px;
+  font-weight: 500;
+  color: #7d97ad;
+}
+
+section#featured-work .container .project {
+  width: 31%;
+  float: left;
+  margin-right: 3.5%;
+  text-align: center;
+}
+
+section#featured-work .container .project:last-child {
+  margin-right: 0;
+}
+
+section#featured-work .container .project img {
+  width: 100%;
+}
+
+section#featured-work .container .project h3 {
+  padding: 10px;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+section#featured-work .container .project p {
+  font-size: 14px;
+  text-transform: lowercase;
+  letter-spacing: 1.1px;
+}
+
+
+/* Media Queries */
+/* TODO */
