@@ -9,71 +9,83 @@
 </head>
 
 <body>
-  <!-- Page Header -->
-  <header id="page-head">
-    <div class="container">
-      <div class="logo">
+  <div class="wrapper">
+    <!-- Header -->
+    <header>
+      <div id="main-header">
         <img src="./img/udacity-logo.svg" alt="Udacity Logo">
+        <div class="title">
+          <h1>Mohit Sakhuja</h1>
+          <h4>Aspiring Full-Stack Developer</h4>
+        </div>
       </div>
-      <div id="title">
-        <h1>Mohit Sakhuja</h1>
-        <h4>Aspiring Full Stack Developer</h4>
-      </div>
-    </div>
-  </header>
+    </header>
 
-  <!-- Sidebar -->
-  <aside id="sidebar">
-    <div class="side-container">
+    <!-- Sidebar -->
+    <aside id="sidebar">
       <div class="color-box">
-        <div class="box" id="blue"></div>
+        <div class="box blue"></div>
         <p>#02b3e4</p>
       </div>
       <div class="color-box">
-        <div class="box" id="dark-gray"></div>
+        <div class="box dark-gray"></div>
         <p>#2d3c49</p>
       </div>
       <div class="color-box">
-        <div class="box" id="light-gray"></div>
+        <div class="box light-gray"></div>
         <p>#7d97ad</p>
       </div>
-    </div>
-  </aside>
+    </aside>
 
-  <!-- Showcase Image -->
-  <section id="showcase">
-    <div class="container">
-      <img src="./img/showcase.png" alt="Showcase image">
-    </div>
-  </section>
+    <!-- Main Area -->
+    <main>
+      <!-- Showcase Image -->
+      <section id="showcase">
+        <picture>
+          <source media="(min-width: 961px)" srcset="./img/showcase2.jpg">
+          <img src="./img/showcase.png" alt="Showcase image">
+        </picture>
+      </section>
 
-  <!-- Featured Work section -->
-  <section id="featured-work">
-    <div class="container">
-      <h2>Featured Work</h2>
-      <div class="project">
-        <a href="#" target="_blank">
-          <img src="./img/photo-1.png" alt="#">
-          <h3>Appify</h3>
-          <p>Lorem ipsum dolor sit amet.</p>
-        </a>
-      </div>
-      <div class="project">
-        <a href="#" target="_blank">
-          <img src="./img/photo-2.png" alt="#">
-          <h3>Sunflower</h3>
-          <p>Lorem ipsum dolor sit amet.</p>
-        </a>
-      </div>
-      <div class="project">
-        <a href="#" target="_blank">
-          <img src="./img/photo-3.png" alt="#">
-          <h3>Bokeh</h3>
-          <p>Lorem ipsum dolor sit amet.</p>
-        </a>
-      </div>
-    </div>
-  </section>
+      <!-- Featured Work -->
+      <section id="featured-work">
+        <h2>Featured Work</h2>
+        <div class="links">
+          <article class="project">
+            <a href="#" target="_blank">
+              <picture>
+                <source media="(min-width: 961px)" srcset="./img/appify2.jpg">
+                <img src="./img/appify.png" alt="A screenshot of an app icon">
+              </picture>
+              <h3>Appify</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </a>
+          </article>
+          <article class="project">
+            <a href="#" target="_blank">
+              <picture>
+                <source media="(min-width: 961px)" srcset="./img/sunflower2.jpg">
+                <img src="./img/sunflower.png" alt="A sunflower">
+              </picture>
+              <h3>Sunflower</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </a>
+          </article>
+          <article class="project">
+            <a href="#" target="_blank">
+              <picture>
+                <source media="(min-width: 961px)" srcset="./img/bokeh2.jpg">
+                <img src="./img/bokeh.png" alt="A picture of bokeh effect">
+              </picture>
+              <h3>Bokeh</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </a>
+          </article>
+        </div>
+      </section>
+    </main>
 
+    <!-- Wrapper ends -->
+  </div>
 </body>
 </html>
